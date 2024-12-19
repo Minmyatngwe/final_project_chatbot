@@ -19,6 +19,6 @@ Our Recommendation is that instead of inputing or typing only one or two words ,
 
 ## Prompting Time
 Since the model we are using has 8 billion parametors,the prompt time from the chat bot will be different based on the GPU AND CUP that your computer has.
-##Warning
+## Warning
 The chatbot only accepcts English since it has only 8 billion parameters which is kind of small large language model compared to chatgpt4 or other which has over 1.76 trillion parameters
 so to get the accurate prompting we limite that.If you type other language or number only the programm will ask you to type again.

@@ -6,7 +6,7 @@ model = OllamaLLM(model='llama3')
 print("Chatbot initialized. Type 'bye' to exit.")
 
 def check_language(user_input):
-    greetings=['hello','hi']
+    greetings=['hello','hi','bye']
     if detect(user_input)=='en' or any(i in user_input.lower() for i in greetings):
         return True
     else: return False

@@ -10,11 +10,12 @@ def stream_response(user_input):
         chat_display.insert(tk.END, "Chatbot: ")
         chat_display.see(tk.END)
         for token in response_stream:
-            chat_display.insert(tk.END, token) 
+            chat_display.insert(tk.END, token)  
             chat_display.update_idletasks()  
+            chat_display.see(tk.END) 
+
         chat_display.insert(tk.END, "\n\n")  
         chat_display.see(tk.END)
-        chat_display.insert(tk.END,"You :")
     except Exception as e:
         chat_display.insert(tk.END, f"Chatbot: Error: {e}\n\n")
         chat_display.see(tk.END)

@@ -14,7 +14,7 @@ On the terminal type
 
 After downloading **Type 
 ```bash
-'ollama'
+ollama
 ```
 command on terminal you can see some output that means you successfully downloaded**
 Next,we need to pull the largelanguage model that we are gonna use which is 'llama3'

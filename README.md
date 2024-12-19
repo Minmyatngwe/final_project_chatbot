@@ -10,11 +10,15 @@ On the terminal type
 ```bash
 
 **"snap install ollama"**
-
+```
 
 After downloading **Type 'ollama' command on terminal you can see some output that means you successfully downloaded**
 Next,we need to pull the largelanguage model that we are gonna use which is 'llama3'
-To get that llama3 type this command **'ollama pull llama3'**
+To get that llama3 type this command 
+```bash
+**'ollama pull llama3'**
+```
+
 **After that you can run the python file**
 ## language detect
 

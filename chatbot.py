@@ -13,6 +13,11 @@ def check_language(user_input):
 
 while True:
     user_input = input("You: ").strip()
+    if user_input.isdigit():
+        print("Only text are allow")
+        continue
+
+    
     if check_language(user_input):
         if user_input.lower() == "bye":
             
@@ -30,6 +35,7 @@ while True:
                 print(token, end="", flush=True)  
 
             print() 
+            continue
         except Exception as e:
             
             print(f"An error occurred: {e}")

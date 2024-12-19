@@ -15,6 +15,7 @@ def stream_response(user_input):
             chat_display.see(tk.END) 
 
         chat_display.insert(tk.END, "\n\n")  
+        chat_display.insert(tk.END,"You :")
         chat_display.see(tk.END)
     except Exception as e:
         chat_display.insert(tk.END, f"Chatbot: Error: {e}\n\n")
@@ -34,7 +35,7 @@ def send_message():
         chat_display.insert(tk.END, f" {user_input}\nChatbot: Only English text is supported.\n\n")
         return
 
-    chat_display.insert(tk.END, f"You: {user_input}\n")
+    chat_display.insert(tk.END, f" {user_input}\n")
     chat_display.see(tk.END)  
 
     root.after(100, lambda: stream_response(user_input))

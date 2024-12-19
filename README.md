@@ -15,7 +15,7 @@ To get that llama3 type this command **'ollama pull llama3'**
 
 Since sometime languadetect libray thinks some common word like hello,hi bye not english because other languaes also has that kind of words.
 ### Recommendation
-Our Recommendation is that instead of prompting only one or two words ,type full sentences to avoid that
+Our Recommendation is that instead of inputing or typing only one or two words ,type full sentences to avoid that
 
 ## Prompting Time
 Since the model we are using has 8 billion parameteors,the prompt time from the chat bot will be different based on the GPU AND CUP that your computer has.

@@ -42,3 +42,7 @@ Making UI is not best part for us since we dont have enough experience in that f
 
 https://youtu.be/bpqoosg2AgI
 
+## Conversation Logging
+The conversation logging file will be created under the same dictory where the python file run with the name of "conversation.csv"
+The csv file will store every the user input and the response from the chatbot and the date and time .
+

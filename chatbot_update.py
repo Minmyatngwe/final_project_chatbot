@@ -96,17 +96,12 @@ chat_display.pack(pady=10, padx=10, fill=tk.BOTH, expand=True)
 #making frame for  user_input and send button
 user_input_frame = tk.Frame(root)
 user_input_frame.pack(fill=tk.X, padx=10, pady=5)
-
-## Text entry widget for user input
-
 user_input_entry = tk.Text(user_input_frame, font=("Arial", 18), height=5, bd=5, relief=tk.GROOVE, wrap=tk.WORD)
 
+
 user_input_entry.pack(side=tk.LEFT, fill=tk.X, expand=True)
-
 # Button to send the message
-
 send_button = tk.Button(user_input_frame, text="Send", command=send_message,height=5)
-
 
 send_button.pack(side=tk.RIGHT, padx=6)
 

@@ -36,5 +36,9 @@ Since the model we are using has 8 billion parametors,the prompt time from the c
 The chatbot only accepcts English since it has only 8 billion parameters which is kind of small large language model compared to chatgpt4 or other which has over 1.76 trillion parameters
 so to get the accurate prompting we limite that.If you type other language or number only the programm will ask you to type again.
 
-While making UI is the hardest part for us ,sinnce we are not software engineering student.so it might not look that good but it is user friendly .
+Making UI is not best part for us since we dont have enough experience in that field ,even though the UI is not that good looking.It is user friendly interface
+
+## CHAT BOT DEMONSTRATION
+
+https://youtu.be/bpqoosg2AgI
 
